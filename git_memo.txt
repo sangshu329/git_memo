@@ -1,0 +1,1 @@
+git如何恢复本地删除的文件  git ls-files -d | xargs -i git checkout {}
