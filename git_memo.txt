@@ -1,6 +1,10 @@
 ﻿<?php
 /*
 
+将ssh配置到GitHub中
+进入生成的ssh目录 : C:\Documents and Settings\Administrator\.ssh 
+（或者 C:\Users\自己电脑用户名\.ssh）中, 使用记事本打开 id_rsa.pub 文件, 将该文件中的内容复制;
+
 1.基础操作：
 生成新的密钥：
 Ssh-keygen –t rsa –C “defnngj@gmai.com” 
